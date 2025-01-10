@@ -1,0 +1,3 @@
+Set @num := 0;
+Update TableName SET id = @num := (@num+1);
+ALTER TABLE TableName AUTO_INCREMENT =1;
